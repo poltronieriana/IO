@@ -23,7 +23,6 @@ class DispositivoBase:
     Classe base abstrata para todos os dispositivos de I/O.
     Define o comportamento comum e a interface que todos os dispositivos devem implementar.
     
-    Responsabilidade do Membro 3: Modelagem Estocástica (RNG)
     """
     def __init__(self, tipo, prioridade, tempo_min, tempo_max, prob_interrupcao):
         """
@@ -126,7 +125,7 @@ class Impressora(DispositivoBase):
     Dispositivo de Saída: IMPRESSORA
     - Prioridade: MÉDIA (operação importante mas não urgente)
     - Tempo de tratamento: MODERADO (3-7 unidades de tempo)
-    - Frequência: MODERADA (impressões periódicas)
+    - Frequência: MODERADA 
     """
     def __init__(self):
         super().__init__(
