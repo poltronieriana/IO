@@ -2,6 +2,13 @@
 
 Trabalho prático desenvolvido para a disciplina de **Sistemas Operacionais**.
 
+Alunos: 
+
+1. Ana Carolina Poltronieri 
+2. Gabriel Gonsalez 
+3. Graziela Espindola
+4. Lucie Grillo 
+
 ## Descrição do Projeto
 
 Este software simula o comportamento do kernel de um Sistema Operacional gerenciando a execução de um processo principal e o tratamento de interrupções de hardware. O simulador implementa:
